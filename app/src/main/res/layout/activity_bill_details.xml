@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".BillDetailsActivity">
+
+    <TextView
+        android:id="@+id/tvDetailsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bill Details"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvMonthLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Month:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvDetailsTitle" />
+
+    <TextView
+        android:id="@+id/tvDetailsMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvMonthLabel"
+        app:layout_constraintStart_toEndOf="@+id/tvMonthLabel"
+        app:layout_constraintTop_toTopOf="@+id/tvMonthLabel"
+        tools:text="December" />
+
+    <TextView
+        android:id="@+id/tvUnitsUsedLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Units Used (kWh):"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvMonthLabel" />
+
+    <TextView
+        android:id="@+id/tvDetailsUnitsUsed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvUnitsUsedLabel"
+        app:layout_constraintStart_toEndOf="@+id/tvUnitsUsedLabel"
+        app:layout_constraintTop_toTopOf="@+id/tvUnitsUsedLabel"
+        tools:text="300.00 kWh" />
+
+    <TextView
+        android:id="@+id/tvTotalChargesDetailsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Total Charges:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvUnitsUsedLabel" />
+
+    <TextView
+        android:id="@+id/tvDetailsTotalCharges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTotalChargesDetailsLabel"
+        app:layout_constraintStart_toEndOf="@+id/tvTotalChargesDetailsLabel"
+        app:layout_constraintTop_toTopOf="@+id/tvTotalChargesDetailsLabel"
+        tools:text="RM 77.00" />
+
+    <TextView
+        android:id="@+id/tvRebateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Rebate:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTotalChargesDetailsLabel" />
+
+    <TextView
+        android:id="@+id/tvDetailsRebate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvRebateLabel"
+        app:layout_constraintStart_toEndOf="@+id/tvRebateLabel"
+        app:layout_constraintTop_toTopOf="@+id/tvRebateLabel"
+        tools:text="2.0%" />
+
+    <TextView
+        android:id="@+id/tvFinalCostDetailsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Final Cost:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvRebateLabel" />
+
+    <TextView
+        android:id="@+id/tvDetailsFinalCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvFinalCostDetailsLabel"
+        app:layout_constraintStart_toEndOf="@+id/tvFinalCostDetailsLabel"
+        app:layout_constraintTop_toTopOf="@+id/tvFinalCostDetailsLabel"
+        tools:text="RM 75.46" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

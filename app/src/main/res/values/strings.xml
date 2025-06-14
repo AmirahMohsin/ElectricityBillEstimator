@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Electricity Bill Estimator</string>
+    <string name="bill_estimator_screen_title">Electricity Bill Estimator</string>
+    <string name="select_month_accessibility">Select Month Dropdown</string>
+    <string name="units_used_accessibility">Enter Units Used in kilowatt-hours</string>
+    <string name="rebate_percentage_accessibility">Enter Rebate Percentage from 0 to 5 percent</string>
+    <string name="select_month">Select Month</string>
+    <string name="units_used_hint">Units Used (kWh)</string>
+    <string name="rebate_percentage_hint">Rebate Percentage (0-5%)</string>
+    <string name="calculate_save_button">Calculate &amp; Save</string>
+    <string name="clear_button">Clear</string>
+    <string name="total_charges_label">Total Charges:</string>
+    <string name="final_cost_label">Final Cost after Rebate:</string>
+    <string name="initial_cost_value">RM 0.00</string>
+    <string name="calculation_history_title">Calculation History:</string>
+    <string name="bill_details_title">Bill Details</string>
+    <string name="month_label">Month:</string>
+    <string name="units_used_label">Units Used (kWh):</string>
+    <string name="total_charges_details_label">Total Charges:</string>
+    <string name="rebate_label">Rebate:</string>
+    <string name="final_cost_details_label">Final Cost:</string>
+    <string name="about_app_title">About This App</string>
+    <string name="app_full_name">Electricity Bill Estimator</string>
+    <string name="developed_by">Developed By: AMIRAH BATRISYIA BINTI MOHSIN</string>
+    <string name="student_id">Student ID: 2023141075</string>
+    <string name="course_code">Course Code: CDCS240</string>
+    <string name="course_name">Course Name: MOBILE TECHNOLOGY AND DEVELOPMENT</string>
+    <string name="copyright">© 2024 Electricity Bill Estimator. All rights reserved.</string>
+    <string name="github_link">Visit our GitHub page</string>
+</resources>

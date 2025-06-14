@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "613068796940",
+    "project_id": "electricitybillestimator-amira",
+    "storage_bucket": "electricitybillestimator-amira.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613068796940:android:3f04b5c2264fd593586a29",
+        "android_client_info": {
+          "package_name": "com.example.electricitybillestimator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKBGQbnoG_5Sg8GqpZz9cAYMB_iizjY7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

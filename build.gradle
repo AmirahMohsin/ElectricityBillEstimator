@@ -1,0 +1,20 @@
+// build.gradle (project level)
+
+buildscript {
+    repositories { // KEEP this one for the buildscript dependencies
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.9.2'
+        classpath 'com.google.gms:google-services:4.4.1'
+    }
+}
+
+// REMOVE the allprojects { repositories { ... } } block entirely
+// allprojects {
+//     repositories {
+//         google()
+//         mavenCentral()
+//     }
+// }
